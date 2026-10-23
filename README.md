@@ -32,13 +32,3 @@ Mission one was completed on an earlier stable 30 FPS build. Later brief tests c
 The release includes 47 launcher/import checks, a full import with all 114 files hash-matched, cancellation cleanup, 80 native timing checks and 23 cheat-hook checks. The corresponding runtime source was independently rebuilt without game data and passed the same native checks.
 
 Preferences, saves and logs are created locally under `%LOCALAPPDATA%\TheOutfitRecomp`. A custom game-storage folder changes the import location. The launcher has no accounts, updater, telemetry or automatic uploads. Review local logs for paths/hardware information before sharing them.
-
-## Source and credits
-
-The same release provides **Runtime-Source.zip**, containing matching patched ReXGlue/dependency sources, FFmpeg and libmspack, licenses, hashes and a runtime rebuild script. Modified, interface-compatible runtime DLLs can replace the supplied DLLs. Keep corresponding source available with binary redistributions.
-
-**Development-Source.zip** contains the launcher, handwritten port/hook code, patches, tests and development scripts. The automatic GitHub “Source code” ZIP contains this release-page repository; use the named development archive for the code.
-
-Original game: Relic Entertainment / THQ. Original native port: DohmBoy64Bit, distributed with author permission confirmed by the publisher. Runtime: ReXGlue / Xenia and credited contributors. Launcher and local improvements developed with OpenAI Codex. Unofficial community work, with no affiliation or endorsement. Component licenses remain in force; this is not a blanket license for the original game. The native executable contains compiled static translations of original instructions; no original XEX, game assets, generated C++ translations, personal settings, saves, logs or developer symbols are included.
-
-The packaged bytes were audited for local identity tokens, user paths, known credential patterns, unwanted files and debug metadata. This is a scoped release audit, not a guarantee of legal immunity or universal anonymity. GitHub identifies the publisher account normally.
